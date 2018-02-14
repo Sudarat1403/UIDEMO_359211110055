@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #ef9a9a;">
          <children>
@@ -38,7 +37,7 @@
             <Font size="14.0" />
          </font>
       </JFXPasswordField>
-      <JFXButton fx:id="btvpassword" layoutX="372.0" layoutY="188.0" prefHeight="25.0" prefWidth="157.0" style="-fx-background-color: #4b2c20;" text="Login" textFill="#fcf6f9">
+      <JFXButton fx:id="btvpassword" layoutX="372.0" layoutY="188.0" onAction="#Login" prefHeight="25.0" prefWidth="157.0" style="-fx-background-color: #4b2c20;" text="Login" textFill="#fcf6f9">
          <font>
             <Font size="13.0" />
          </font>
