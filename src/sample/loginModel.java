@@ -33,6 +33,7 @@ public class loginModel {
 
         try{
 
+
             pr = this.connection.prepareStatement(sql);
             pr.setString(1, user);
             pr.setString(2,pass);
@@ -50,10 +51,5 @@ public class loginModel {
             pr.close();
             rs.close();
         }
-
-
-
-
-
 
     }//class
